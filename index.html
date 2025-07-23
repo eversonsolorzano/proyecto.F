@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colegio Manuel Scorza Torres</title>
+    <link rel="icon" href="favicon-16x16.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!-- Header y Navegación -->
+    <header>
+        <div class="logo">
+            <img src="manuel_scorza (1).png" alt="Logo Colegio">
+            <h1>Colegio Manuel Scorza Torres</h1>
+        </div>
+        
+        <div class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        
+        <ul class="nav-menu">
+            <li><a href="#inicio"><i class="fas fa-home"></i> Inicio</a></li>
+            <li>
+                <a href="#academico"><i class="fas fa-graduation-cap"></i> Académico <i class="fas fa-chevron-down"></i></a>
+                <ul class="submenu">
+                    <li><a href="#academico">Niveles Educativos</a></li>
+                    <li><a href="#academico">Calendario</a></li>
+                    <li><a href="#academico">Horarios</a></li>
+                    <li><a href="#academico">Biblioteca</a></li>
+                </ul>
+            </li>
+            <li><a href="#admisiones"><i class="fas fa-users"></i> Admisiones</a></li>
+            <li>
+                <a href="#nosotros"><i class="fas fa-info-circle"></i> Nosotros <i class="fas fa-chevron-down"></i></a>
+                <ul class="submenu">
+                    <li><a href="#nosotros">Historia</a></li>
+                    <li><a href="#nosotros">Misión y Visión</a></li>
+                    <li><a href="#nosotros">Instalaciones</a></li>
+                    <li><a href="#nosotros">Docentes</a></li>
+                    <li><a href="#nosotros">Cursos</a></li>
+                </ul>
+            </li>
+            <li><a href="#contacto"><i class="fas fa-envelope"></i> Contacto</a></li>
+            <li><a href="#" class="btn" id="loginBtn"><i class="fas fa-sign-in-alt"></i> Portal</a></li>
+        </ul>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <h2>Bienvenidos al Colegio Manuel Scorza Torres</h2>
+        <p>Formando líderes con valores, conocimientos y habilidades para enfrentar los desafíos del mañana.</p>
+        <a href="#admisiones" class="btn">Solicitar Matricula</a>
+    </section>
+
+    <!-- Sección Académica -->
+    <section class="section" id="academico">
+        <div class="section-title">
+            <h2> NIveles Educativos</h2>
+        </div>
+        
+        <div class="academic-grid">
+            <div class="academic-card">
+                <div class="academic-img">
+                    <img src="https://i.pinimg.com/736x/b8/68/dc/b868dcc7ce633784312a3e9f2e48fd08.jpg" alt="Educación Inicial">
+                </div>
+                <div class="academic-content">
+                    <h3 class="academic-title">Educación Inicial</h3>
+                    <p>Programa diseñado para niños de 3 a 5 años que fomenta el desarrollo integral a través del juego y la exploración.</p>
+                    <a href="#" class="read-more">Más información <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            
+            <div class="academic-card">
+                <div class="academic-img">
+                    <img src="https://i.pinimg.com/1200x/ca/42/8b/ca428b5eb4fef5d3f5c2f7310c8d9de5.jpg" alt="Primaria">
+                </div>
+                <div class="academic-content">
+                    <h3 class="academic-title">Primaria</h3>
+                    <p>De 1° a 6° grado, con enfoque en el desarrollo de competencias básicas y valores fundamentales.</p>
+                    <a href="#" class="read-more">Más información <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            
+            <div class="academic-card">
+                <div class="academic-img">
+                    <img src="https://i.pinimg.com/1200x/c3/95/7f/c3957f38fc36a9f2e1851ec56c10f3f9.jpg" alt="Secundaria">
+                </div>
+                <div class="academic-content">
+                    <h3 class="academic-title">Secundaria</h3>
+                    <p>Programa completo de 7° a 11° grado que prepara a los estudiantes para la educación superior.</p>
+                    <a href="#" class="read-more">Más información <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Admisiones -->
+    <section class="section" id="admisiones">
+        <div class="section-title">
+            <h2>Admisiones</h2>
+            <p>Conoce el proceso para formar parte de nuestra comunidad educativa</p>
+        </div>
+        
+        <div class="admission-steps">
+            <div class="step-card">
+                <div class="step-number">1</div>
+                <h3>Solicitud</h3>
+                <p>Completa el formulario de solicitud en línea o en nuestras instalaciones.</p>
+            </div>
+            
+            <div class="step-card">
+                <div class="step-number">2</div>
+                <h3>Entrevista</h3>
+                <p>Agenda una entrevista con nuestro equipo de admisiones.</p>
+            </div>
+            
+            <div class="step-card">
+                <div class="step-number">3</div>
+                <h3>Evaluación</h3>
+                <p>Los estudiantes realizan una evaluación diagnóstica.</p>
+            </div>
+            
+            <div class="step-card">
+                <div class="step-number">4</div>
+                <h3>Matrícula</h3>
+                <p>Completa el proceso de matrícula y documentos requeridos.</p>
+            </div>
+        </div>
+        
+        <div style="text-align: center; margin-top: 3rem;">
+            <a href="#" class="btn" id="admisionBtn">Iniciar </a>
+        </div>
+    </section>
+
+    <!-- Sección Nosotros -->
+    <section class="section" id="nosotros">
+        <div class="section-title">
+            <h2>Nuestro Colegio</h2>
+        </div>
+        
+        <div class="features">
+            <div class="feature-card">
+                <i class="fas fa-chalkboard-teacher"></i>
+                <h3>Docentes Calificados</h3>
+                <p>Contamos con un equipo de profesionales altamente capacitados y comprometidos con la educación.</p>
+            </div>
+            
+            <div class="feature-card">
+                <i class="fas fa-flask"></i>
+                <h3>Laboratorios Modernos</h3>
+                <p>Infraestructura equipada con tecnología de punta para el aprendizaje práctico de las ciencias.</p>
+            </div>
+            
+            <div class="feature-card">
+                <i class="fas fa-futbol"></i>
+                <h3>Deportes </h3>
+                <p>Amplia variedad de deportes, arte y cultura para el desarrollo integral de nuestros estudiantes.</p>
+            </div>
+
+            <div class="feature-card" style="font-style: normal;">
+                <i class="fas fa-graduation-cap"></i>
+                <h3>Cursos </h3>
+                <ul>
+                    <li> Matematicas</li>
+                    <li> Quimica</li>
+                    <li> Ingles</li>
+                    <li> Comunicacion</li>
+                    <li> Personal Social</li>
+                    <li> Arte y Cultura</li>
+                </ul>
+            </div>
+                <div class="feature-card">
+                <i class="fas fa-futbol"></i>
+                <h3>ACTIVIDADESW </h3>
+                <p>Amplia variedad de deportes, arte y cultura para el desarrollo integral de nuestros estudiantes.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Noticias -->
+    <section class="section" style="background-color: #f9f9f9;">
+        <div class="section-title">
+            <h2>Noticias y Eventos</h2>
+        </div>
+        
+        <div class="news-container">
+            <div class="news-card">
+                <div class="news-img">
+                    <img src="https://i.pinimg.com/1200x/99/54/9e/99549e24f7db2b243bc2ff29f67e2906.jpg" alt="Evento escolar">
+                </div>
+                <div class="news-content">
+                    <div class="news-date">18 de Diciembre 2024</div>
+                    <h3 class="news-title">Ceremonia de Promocion 2024</h3>
+                    <p class="news-excerpt">Celebramos a nuestros promociones en una emotiva ceremonia que marca el fin de una etapa y el comienzo de nuevas aventuras.</p>
+                    <a href="#" class="read-more" id="news1Btn">Leer más <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            
+            <div class="news-card">
+                <div class="news-img">
+                    <img src="https://i.pinimg.com/736x/5a/80/06/5a80063caf50940d3ffa8184cb8d01b9.jpg" alt="Olimpiadas">
+                </div>
+                <div class="news-content">
+                    <div class="news-date">28 junio 2025</div>
+                    <h3 class="news-title">Ganadores en concurso de Matemáticas</h3>
+                    <p class="news-excerpt">Nuestros estudiantes obtuvieron medallas de oro y plata en las olimpiadas regionales de matemáticas.</p>
+                    <a href="#" class="read-more" id="news2Btn">Leer más <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            
+            <div class="news-card">
+                <div class="news-img">
+                    <img src="https://i.pinimg.com/1200x/2c/fc/29/2cfc29088e06b050a047ed2aa9988dc8.jpg" alt="Taller de ciencia">
+                </div>
+                <div class="news-content">
+                    <div class="news-date">09 Julio 2025</div>
+                    <h3 class="news-title">Taller de Ciencias para Padres e Hijos</h3>
+                    <p class="news-excerpt">Exitosa jornada de aprendizaje conjunto donde familias exploraron el mundo de la ciencia a través de experimentos.</p>
+                    <a href="#" class="read-more" id="news3Btn">Leer más <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section class="section" id="contacto">
+        <div class="section-title">
+            <h2>Contacto</h2>
+        </div>
+        
+        <div class="contact-grid">
+            <div class="contact-info">
+                <h3>Información de Contacto</h3>
+                
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h4>Dirección</h4>
+                        <p>Calle Principal N° 123, Collahuasi</p>
+                    </div>
+                </div>
+                
+                <div class="contact-item">
+                    <i class="fas fa-phone-alt"></i>
+                    <div>
+                        <h4>Teléfono</h4>
+                        <p>+51 982228690</p>
+                    </div>
+                </div>
+                
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h4>Email</h4>
+                        <p>info@colegiomanuelscorzatorres.edu</p>
+                    </div>
+                </div>
+                
+                <div class="contact-item">
+                    <i class="fas fa-clock"></i>
+                    <div>
+                        <h4>Horario</h4>
+                        <p>Lunes a Viernes: 8:00 AM - 3:30 PM</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="contact-form">
+                <h3>Envíanos un Mensaje</h3>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Nombre</label>
+                        <input type="text" id="name" class="form-control" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" class="form-control" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">Asunto</label>
+                        <input type="text" id="subject" class="form-control" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Mensaje</label>
+                        <textarea id="message" class="form-control" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-col" >
+                <h3>Sobre Nosotros</h3>
+                <p>El Colegio Manuel Scorza Torres es una institución educativa comprometida con la formación integral de sus estudiantes desde 1985.</p>
+                <div class="social-links">
+    <a href="https://www.facebook.com/tu_perfil_facebook " target="_blank" class="social-icon facebook" style="color: #1877F2;">
+      <i class="fab fa-facebook"></i>
+    </a>
+    <a href="https://www.twitter.com/tu_perfil_twitter " target="_blank" class="social-icon twitter" style="color: #1DA1F2;">
+      <i class="fab fa-twitter"></i>
+    </a>
+    <a href="https://www.instagram.com/tu_perfil_instagram " target="_blank" class="social-icon instagram" style="color: #E1306C; ">
+      <i class="fab fa-instagram"></i>
+    </a>
+    <a href="https://www.youtube.com/tu_canal_youtube " target="_blank" class="social-icon youtube" style="color: #FF0000;">
+      <i class="fab fa-youtube"></i>
+    </a>
+    <a href="https://web.whatsapp.com:5222/ " target="_blank" class="social-icon whatsapp" style=" color: #25D366;">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+
+                </div>
+            </div>
+            
+            <div class="footer-col">
+                <h3>Enlaces Rápidos</h3>
+                <ul class="footer-links">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#academico">Académico</a></li>
+                    <li><a href="#admisiones">Admisiones</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-col">
+                <h3>Programas</h3>
+                <ul class="footer-links">
+                    <li><a href="#academico">Educación Inicial</a></li>
+                    <li><a href="#academico">Primaria</a></li>
+                    <li><a href="#academico">Secundaria</a></li>
+                    
+                </ul>
+            </div>
+            
+            <div class="footer-col">
+                <h3>Boletín Informativo</h3>
+                <p>Suscríbete para recibir noticias y actualizaciones.</p>
+                <form id="newsletterForm">
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Tu email" required>
+                    </div>
+                    <button type="submit" class="btn">Suscribirse</button>
+                </form>
+            </div>
+        </div>
+        
+        <div class="copyright">
+            <p>&copy; 2025 Colegio MAnuel Scorza Torres. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Quick Access Buttons -->
+    <div class="quick-access">
+        <div class="quick-options">
+            <a href="#inicio" class="quick-option" title="Ir al inicio"><i class="fas fa-home"></i></a>
+            <a href="#contacto" class="quick-option" title="Contacto"><i class="fas fa-envelope"></i></a>
+            <a href="#" class="quick-option" id="calendarBtn" title="Calendario"><i class="fas fa-calendar-alt"></i></a>
+        </div>
+        <button class="quick-btn" id="quickBtn">
+            <i class="fas fa-plus"></i>
+        </button>
+    </div>
+
+    <!-- Ventanas Modales -->
+    <!-- Modal de Login -->
+    <div class="modal" id="loginModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Acceso al Portal</h3>
+                <button class="close-modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <form id="loginForm">
+                    <div class="form-group">
+                        <label for="loginEmail">Usuario</label>
+                        <input type="text" id="loginEmail" class="form-control" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="loginPassword">Contraseña</label>
+                        <input type="password" id="loginPassword" class="form-control" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <a href="#" style="color: var(--secondary-color);">¿Olvidaste tu contraseña?</a>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button class="btn" id="submitLogin">Ingresar</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de Admisiones -->
+    <div class="modal" id="admisionModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Solicitud de Matricula</h3>
+                <button class="close-modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <form id="admisionForm">
+                    <div class="form-group">
+                        <label for="admisionNombre">Nombre Completo</label>
+                        <input type="text" id="admisionNombre" class="form-control" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="admisionEmail">Email</label>
+                        <input type="email" id="admisionEmail" class="form-control" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="admisionTelefono">Teléfono</label>
+                        <input type="tel" id="admisionTelefono" class="form-control" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="admisionNivel">Nivel de Interés</label>
+                        <select id="admisionNivel" class="form-control" required>
+                            <option value="">Seleccione...</option>
+                            <option value="inicial">Educación Inicial</option>
+                            <option value="primaria">Primaria</option>
+                            <option value="secundaria">Secundaria</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="admisionMensaje">Mensaje Adicional</label>
+                        <textarea id="admisionMensaje" class="form-control" rows="4"></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button class="btn" id="submitAdmision">Enviar Solicitud</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de Noticia 1 -->
+    <div class="modal" id="news1Modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Ceremonia de Promocion 2024</h3>
+                <button class="close-modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <img src="https://i.pinimg.com/1200x/99/54/9e/99549e24f7db2b243bc2ff29f67e2906.jpg" alt="Evento escolar" style="width: 100%; border-radius: 5px; margin-bottom: 1rem;">
+                <p><strong>Fecha:</strong> 15 Junio 2023</p>
+                <p>El pasado viernes 15 de junio celebramos la graduación de la promoción 2023 en una emotiva ceremonia que tuvo lugar en el auditorio principal de nuestro colegio.</p>
+                <p>Un total de 120 estudiantes recibieron sus diplomas, marcando el fin de una importante etapa en sus vidas y el comienzo de nuevas aventuras académicas y profesionales.</p>
+                <p>La ceremonia contó con la presencia de autoridades educativas, docentes, familiares y amigos, quienes acompañaron a los graduandos en este momento tan especial.</p>
+                <p>El discurso de graduación estuvo a cargo de la estudiante María Pérez, quien conmovió a todos los presentes con su mensaje de agradecimiento y esperanza hacia el futuro.</p>
+                <p>¡Felicitaciones a nuestros graduados! Estamos seguros que llevarán en alto el nombre de nuestro colegio donde quiera que vayan.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de Calendario -->
+    <div class="modal" id="calendarModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Calendario Escolar</h3>
+                <button class="close-modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <h4>Próximos Eventos</h4>
+                <ul style="list-style: none; margin-top: 1rem;">
+                    <li style="padding: 0.7rem 0; border-bottom: 1px solid #eee;">
+                        <strong>06 Julio 2025</strong> - Dia del Maestro
+                    </li>
+                    <li style="padding: 0.7rem 0; border-bottom: 1px solid #eee;">
+                        <strong>28 y 29 Julio 2025</strong> - Dia de la Independencia  del Peru
+                    </li>
+                    <li style="padding: 0.7rem 0; border-bottom: 1px solid #eee;">
+                        <strong>28 de Julio al 08 de Agosto</strong> - Vacaciones de Medio Año
+                    </li>
+                    <li style="padding: 0.7rem 0; border-bottom: 1px solid #eee;">
+                        <strong>30 Agosto 2025</strong> - Dia Santa Rosa de Lima
+                    </li>
+                    <li style="padding: 0.7rem 0;">
+                        <strong>08 Octubre</strong> - Dia de Combate de Angamos 
+                    </li>
+                     <li style="padding: 0.7rem 0; border-bottom: 1px solid #eee;">
+                        <strong> 01 Noviembre 2025</strong> - Dya de todo los santos
+                    </li>
+                     <li style="padding: 0.7rem 0; border-bottom: 1px solid #eee;">
+                        <strong>08 Diciembre 2025</strong> - Dia de la Inmaculada Concepcion
+                    </li>
+                     <li style="padding: 0.7rem 0; border-bottom: 1px solid #eee;">
+                        <strong>09 Diciembre 2025</strong> - Batalla de Ayacucho
+                    </li>
+                </ul>
+                <div style="margin-top: 2rem; text-align: center;">
+                    <a href="#" class="btn" style="display: inline-block;">Descargar Calendario Completo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script>
+        // Menu Toggle
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navMenu = document.querySelector('.nav-menu');
+        
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+        
+        // Cerrar menú al hacer clic en un enlace
+        document.querySelectorAll('.nav-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                menuToggle.classList.remove('active');
+                navMenu.classList.remove('active');
+            });
+        });
+        
+        // Funcionalidad de las ventanas modales
+        const modals = {
+            login: {
+                btn: document.getElementById('loginBtn'),
+                modal: document.getElementById('loginModal'),
+                close: document.querySelector('#loginModal .close-modal'),
+                submit: document.getElementById('submitLogin')
+            },
+            admision: {
+                btn: document.getElementById('admisionBtn'),
+                modal: document.getElementById('admisionModal'),
+                close: document.querySelector('#admisionModal .close-modal'),
+                submit: document.getElementById('submitAdmision')
+            },
+            news1: {
+                btn: document.getElementById('news1Btn'),
+                modal: document.getElementById('news1Modal'),
+                close: document.querySelector('#news1Modal .close-modal')
+            },
+            calendar: {
+                btn: document.getElementById('calendarBtn'),
+                modal: document.getElementById('calendarModal'),
+                close: document.querySelector('#calendarModal .close-modal')
+            }
+        };
+        
+        // Función para manejar modales
+        function setupModal(modalObj) {
+            if (modalObj.btn && modalObj.modal) {
+                modalObj.btn.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    modalObj.modal.classList.add('active');
+                    document.body.style.overflow = 'hidden';
+                });
+                
+                modalObj.close.addEventListener('click', () => {
+                    modalObj.modal.classList.remove('active');
+                    document.body.style.overflow = 'auto';
+                });
+                
+                if (modalObj.submit) {
+                    modalObj.submit.addEventListener('click', () => {
+                        // Aquí iría la lógica para enviar el formulario
+                        alert('Formulario enviado (simulación)');
+                        modalObj.modal.classList.remove('active');
+                        document.body.style.overflow = 'auto';
+                    });
+                }
+            }
+        }
+        
+        // Configurar todos los modales
+        Object.values(modals).forEach(setupModal);
+        
+        // Cerrar modal al hacer clic fuera del contenido
+        document.querySelectorAll('.modal').forEach(modal => {
+            modal.addEventListener('click', (e) => {
+                if (e.target === modal) {
+                    modal.classList.remove('active');
+                    document.body.style.overflow = 'auto';
+                }
+            });
+        });
+        
+        // Formulario de contacto
+        const contactForm = document.getElementById('contactForm');
+        if (contactForm) {
+            contactForm.addEventListener('submit', (e) => {
+                e.preventDefault();
+                alert('Mensaje enviado con éxito. Nos pondremos en contacto pronto.');
+                contactForm.reset();
+            });
+        }
+        
+        // Formulario de newsletter
+        const newsletterForm = document.getElementById('newsletterForm');
+        if (newsletterForm) {
+            newsletterForm.addEventListener('submit', (e) => {
+                e.preventDefault();
+                alert('¡Gracias por suscribirte a nuestro boletín!');
+                newsletterForm.reset();
+            });
+        }
+        
+        // Quick Access Button
+        const quickBtn = document.getElementById('quickBtn');
+        if (quickBtn) {
+            quickBtn.addEventListener('click', (e) => {
+                e.preventDefault();
+                document.querySelector('.quick-options').classList.toggle('active');
+            });
+        }
+
+        // Smooth scrolling para todos los enlaces
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    targetElement.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
